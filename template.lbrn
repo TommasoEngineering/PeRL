@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="0.9.04" MaterialHeight="0">
+    <CutSetting type="Scan">
+        <index Value="0"/>
+        <name Value="layer1"/>
+        <minPower Value="0"/>
+        <maxPower Value="100"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="20"/>
+        <speed Value="15"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThrough Value="0"/>
+        <priority Value="1"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="0"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.08"/>
+        <angle Value="0"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="10"/>
+        <name Value="C10"/>
+        <minPower Value="0"/>
+        <maxPower Value="0"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="20"/>
+        <speed Value="1"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThrough Value="0"/>
+        <priority Value="0"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="0"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="0"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+    </CutSetting>
+    <Shape Type="Path" CutIndex="10">
+        <XForm>0.704225 0 0 1 -7.04225 -30</XForm>
+        <V vx="81" vy="30" c0x="1" c0y="0" c1x="1" c1y="0"/>
+        <V vx="10" vy="30" c0x="1" c0y="0" c1x="1" c1y="0"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="10" Font="Parry Hotter,-1,100,5,50,0,0,0,0,0" Str="Bottom" H="30" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>-2.52818e-8 0.57838 -0.57838 -2.52818e-8 -24.4122 126.286</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="10" Font="Parry Hotter,-1,100,5,50,0,0,0,0,0" Str="Top" H="30" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>-2.52818e-8 0.57838 -0.57838 -2.52818e-8 160.951 122.021</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="10" Font="Parry Hotter,-1,100,5,50,0,0,0,0,0" Str="Right" H="30" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>-2.15841e-8 0.493786 -0.493786 -2.15841e-8 90.4607 -23.067</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="10" Font="Parry Hotter,-1,100,5,50,0,0,0,0,0" Str="Left" H="30" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>-2.15841e-8 0.493786 -0.493786 -2.15841e-8 95.1945 261.479</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Parry Hotter,-1,100,5,50,0,0,0,0,0" Str="Test" H="30" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>1.31134e-7 1 -1 1.31134e-7 60.5988 117.318</XForm>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>
